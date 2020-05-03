@@ -1,0 +1,66 @@
+body {
+    background: #e3e3e3;
+}
+
+nav {
+    margin-bottom: 0px;
+
+}
+.banner{
+    margin-bottom: 15px;
+    background-image: url("../img/roman-manukyan-saaNngBhuBw-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+   height: 340px;
+}
+
+.banner-text {
+
+    align-content:center;
+    padding: 20px;
+}
+.footer{
+    background-color: dimgray;
+    height: 50px;
+    margin-top:10px ;
+    color: black;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+.card-header {
+    padding:  0.25rem;
+    margin-bottom: 0;
+
+    border-bottom:none;
+}
+
+.card-body {
+    padding: 0.25rem;
+
+}
+.card-img {
+    height: 200px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-img, .card-author, .card-date, .card-descr {
+    margin-bottom: 10px;
+}
+
+.card-img__max {
+    height: 500px;
+}
+
+.card-btn {
+    display: flex;
+}
+
+.card-btn a {
+    margin-right: 10px;
+}
